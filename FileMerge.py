@@ -9,9 +9,9 @@ import os
 file_path = r'C:\Users\JT-0919\Desktop\Hi\YQP'
 
 input_files = [
-    '01-40英尺半高硬开顶重载集装箱运输模式与经济性分析.pdf',
-    '02-40英尺半高硬开顶重载集装箱运输模式与经济性分析2.pdf']
-output_file = '40英尺半高硬开顶重载集装箱运输模式与经济性分析_NEW.pdf'
+    'part1.pdf',
+    'part2.pdf']
+output_file = 'merge.pdf'
 
 if len(sys.argv) == 1:
     merger = PdfMerger()
